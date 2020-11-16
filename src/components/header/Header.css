@@ -1,0 +1,9 @@
+.header {
+    width: 50px;
+    height: 100vh;
+}
+
+.navbar {
+    width: 50px !important;
+    height: 100vh !important;
+}

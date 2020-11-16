@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import { Header } from './components/Header'
-import { Users } from './components/Users'
-import { DisplayBoard } from './components/DisplayBoard'
-import CreateUser from './components/CreateUser'
+import './App.css'; 
+import { Header } from './components/header/Header'
+import { Users } from './components/users/Users'
+import { DisplayBoard } from './components/display-board/DisplayBoard'
+import CreateUser from './components/create-user/CreateUser'
 import { getAllUsers, createUser } from './services/UserService'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
